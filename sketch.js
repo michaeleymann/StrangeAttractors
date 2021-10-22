@@ -10,6 +10,11 @@ Check https://sequelaencollection.home.blog/2d-chaotic-attractors/
 Von dort ist auch der grösste Teil des Codes.
 */
 
+function preventBehaviour(e){
+  e.preventDefault();
+}
+document.addEventListener("touchmove",preventBehaviour, {passive: false});
+
 //Variabeln für den Attractor
 let a=0.5;
 var b=1.56;
