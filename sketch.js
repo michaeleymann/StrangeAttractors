@@ -35,6 +35,7 @@ function myAttractor(iters){
 
   for (i=0;i<iters;i++){
     var xt=x;
+
     x = d*sin(a*x)-tan(b*y); //tan=sin im Original
     y = d*cos(a*xt) + cos(b*y);
   }
