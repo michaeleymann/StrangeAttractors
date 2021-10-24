@@ -10,6 +10,12 @@ Check https://sequelaencollection.home.blog/2d-chaotic-attractors/
 Von dort ist auch der grösste Teil des Codes.
 */
 
+//Touch-Verhalten auf Mobile
+function touchStarted() {
+  // prevent default
+  return false
+}
+
 //Variabeln für den Attractor
 let a=0.5;
 var b=1.56;
