@@ -9,3 +9,8 @@ html, body {
     -moz-user-select: none;
     
   }
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
